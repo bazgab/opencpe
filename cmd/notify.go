@@ -69,14 +69,14 @@ var notifyCmd = &cobra.Command{
 
 		cfgFile, err := os.ReadFile(flagConfig)
 		if err != nil {
-			slog.Error("Error when opening file: ", err)
+			slog.Error("Error when opening file: ", "Error", err)
 		}
 
 		var cfg Config
 
 		err = json.Unmarshal(cfgFile, &cfg)
 		if err != nil {
-			slog.Error("Error during Unmarshal(): ", err)
+			slog.Error("Error during Unmarshal(): ", "Error", err)
 		}
 		logging.BreakerLine()
 		fmt.Println("")
