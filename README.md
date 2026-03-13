@@ -1,6 +1,7 @@
 
 # OpenCPE - Open Cloud Policy Executor (AWS)
 **_IMPORTANT_: Work in Progress - not ready for usage**
+
 **This project has been temporarily moved to GitLab for internal development** 
 
 OpenCPE aims to be an all-in-one tool for Cloud resource control focused on notification capabilities with heavily opinionated defaults, aiming at ease of use and maintenance. 
@@ -73,6 +74,7 @@ Extensive information on how to use OpenCPE can be found on the docs folder of t
 - [Installation](https://github.com/bazgab/opencpe/blob/master/docs/Installation.md)
 - [Configuration](https://github.com/bazgab/opencpe/blob/master/docs/Configuration.md)
 - [Policy Reference](https://github.com/bazgab/opencpe/blob/master/docs/Policy_Reference.md)
+
 
 
 
